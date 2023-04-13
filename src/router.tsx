@@ -7,6 +7,9 @@ const MemoDemo = lazy(() => import('./example/useMemo'))
 const SharingObjects = lazy(() => import('./example/sharingObjects'))
 const Stats = lazy(() => import('./example/stats'))
 const R3f = lazy(() => import('./example/r3f'))
+const OrbitDemo = lazy(() => import('./example/orbitControls'))
+const PointerLock = lazy(() => import('./example/pointerLockControls'))
+const AxesHelper = lazy(() => import('./example/axesHelper'))
 
 const router = createBrowserRouter([
   {
@@ -32,6 +35,18 @@ const router = createBrowserRouter([
       {
         path: '/r3f',
         element: <R3f />
+      },
+      {
+        path: '/orbit',
+        element: <OrbitDemo />
+      },
+      {
+        path: '/pointerLock',
+        element: <PointerLock />
+      },
+      {
+        path: '/axesHelper',
+        element: <AxesHelper />
       }
     ]
   }

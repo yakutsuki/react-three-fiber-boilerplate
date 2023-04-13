@@ -122,6 +122,15 @@ const Sidebar = () => {
           <Item>
             <CustomLink to="/r3f">R3F-Perf</CustomLink>
           </Item>
+          <Item>
+            <CustomLink to="/orbit">OrbitControls</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/pointerLock">PointerLockControls</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/axesHelper">AxesHelper</CustomLink>
+          </Item>
         </List>
       </Nav>
     </Container>
