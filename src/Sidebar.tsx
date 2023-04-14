@@ -131,6 +131,30 @@ const Sidebar = () => {
           <Item>
             <CustomLink to="/axesHelper">AxesHelper</CustomLink>
           </Item>
+          <Item>
+            <CustomLink to="/gridHelper">GridHelper</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/leva">Leva</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/materials">Materials</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/lights">Lights</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/shadows">Shadows</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/useLoader">useLoader</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/gltfLoader">GLTFLoader</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/environment">Environment</CustomLink>
+          </Item>
         </List>
       </Nav>
     </Container>

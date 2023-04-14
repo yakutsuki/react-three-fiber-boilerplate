@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const Content = styled.div`
   flex: 1;
-  padding: 2rem 4rem;
+  /* padding: 2rem 4rem; */
   width: 100%;
   background: #000000;
   position: relative;
