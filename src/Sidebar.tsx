@@ -155,6 +155,18 @@ const Sidebar = () => {
           <Item>
             <CustomLink to="/environment">Environment</CustomLink>
           </Item>
+          <Item>
+            <CustomLink to="/gltfScenes">GLTF Scenes</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/useGLTF">useGLTF</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/annotations">annotations</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/gltfjsx">GLTFJSX</CustomLink>
+          </Item>
         </List>
       </Nav>
     </Container>

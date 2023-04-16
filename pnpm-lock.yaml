@@ -31,6 +31,9 @@ dependencies:
   three:
     specifier: ^0.151.3
     version: 0.151.3
+  three-stdlib:
+    specifier: ^2.21.8
+    version: 2.21.8(three@0.151.3)
 
 devDependencies:
   '@types/react':

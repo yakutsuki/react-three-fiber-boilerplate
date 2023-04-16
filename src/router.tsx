@@ -18,6 +18,10 @@ const Shadows = lazy(() => import('./example/shadows'))
 const UseLoader = lazy(() => import('./example/useLoader'))
 const GLTFLoaderDemo = lazy(() => import('./example/gltfLoader'))
 const EnvironmentDemo = lazy(() => import('./example/environment'))
+const GLTFScenes = lazy(() => import('./example/gltfScenes'))
+const UseGLTFDemo = lazy(() => import('./example/useGLTF'))
+const Annotations = lazy(() => import('./example/annotations'))
+const GLTFJSX = lazy(() => import('./example/GLTFJSX'))
 
 const router = createBrowserRouter([
   {
@@ -87,6 +91,22 @@ const router = createBrowserRouter([
       {
         path: '/environment',
         element: <EnvironmentDemo />
+      },
+      {
+        path: '/gltfScenes',
+        element: <GLTFScenes />
+      },
+      {
+        path: '/useGLTF',
+        element: <UseGLTFDemo />
+      },
+      {
+        path: '/annotations',
+        element: <Annotations />
+      },
+      {
+        path: '/GLTFJSX',
+        element: <GLTFJSX />
       }
     ]
   }
