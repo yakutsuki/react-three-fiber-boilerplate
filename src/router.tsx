@@ -22,6 +22,8 @@ const GLTFScenes = lazy(() => import('./example/gltfScenes'))
 const UseGLTFDemo = lazy(() => import('./example/useGLTF'))
 const Annotations = lazy(() => import('./example/annotations'))
 const GLTFJSX = lazy(() => import('./example/GLTFJSX'))
+const Lerp = lazy(() => import('./example/lerp'))
+const MoveDemo = lazy(() => import('./example/move'))
 
 const router = createBrowserRouter([
   {
@@ -107,6 +109,14 @@ const router = createBrowserRouter([
       {
         path: '/GLTFJSX',
         element: <GLTFJSX />
+      },
+      {
+        path: '/lerp',
+        element: <Lerp />
+      },
+      {
+        path: '/move',
+        element: <MoveDemo />
       }
     ]
   }

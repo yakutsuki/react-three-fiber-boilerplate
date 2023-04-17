@@ -167,6 +167,12 @@ const Sidebar = () => {
           <Item>
             <CustomLink to="/gltfjsx">GLTFJSX</CustomLink>
           </Item>
+          <Item>
+            <CustomLink to="/lerp">Lerp</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/move">Move</CustomLink>
+          </Item>
         </List>
       </Nav>
     </Container>
