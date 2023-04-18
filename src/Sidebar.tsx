@@ -174,6 +174,12 @@ const Sidebar = () => {
             <CustomLink to="/move">Move</CustomLink>
           </Item>
         </List>
+        <SubTitle>进阶</SubTitle>
+        <List>
+          <Item>
+            <CustomLink to="/house">House</CustomLink>
+          </Item>
+        </List>
       </Nav>
     </Container>
   )

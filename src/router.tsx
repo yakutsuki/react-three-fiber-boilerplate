@@ -2,6 +2,7 @@ import { lazy } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App'
 
+// basic
 const Basic = lazy(() => import('./example/basic'))
 const MemoDemo = lazy(() => import('./example/useMemo'))
 const SharingObjects = lazy(() => import('./example/sharingObjects'))
@@ -24,6 +25,9 @@ const Annotations = lazy(() => import('./example/annotations'))
 const GLTFJSX = lazy(() => import('./example/GLTFJSX'))
 const Lerp = lazy(() => import('./example/lerp'))
 const MoveDemo = lazy(() => import('./example/move'))
+
+// advanced
+const House = lazy(() => import('./case/house'))
 
 const router = createBrowserRouter([
   {
@@ -117,6 +121,10 @@ const router = createBrowserRouter([
       {
         path: '/move',
         element: <MoveDemo />
+      },
+      {
+        path: '/house',
+        element: <House />
       }
     ]
   }

@@ -33,6 +33,13 @@ body {
   width: 100%;
 }
 
+svg text {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
 .stats-pos {
   left: 22rem !important;
 }
