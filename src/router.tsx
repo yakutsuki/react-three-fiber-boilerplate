@@ -25,9 +25,12 @@ const Annotations = lazy(() => import('./example/annotations'))
 const GLTFJSX = lazy(() => import('./example/GLTFJSX'))
 const Lerp = lazy(() => import('./example/lerp'))
 const MoveDemo = lazy(() => import('./example/move'))
+const ModifyGeo = lazy(() => import('./example/modifyGeo'))
 
 // advanced
 const House = lazy(() => import('./case/house'))
+const Nesting = lazy(() => import('./case/nesting'))
+const EventPropagation = lazy(() => import('./case/eventPropagation'))
 
 const router = createBrowserRouter([
   {
@@ -125,6 +128,18 @@ const router = createBrowserRouter([
       {
         path: '/house',
         element: <House />
+      },
+      {
+        path: '/modifyGeo',
+        element: <ModifyGeo />
+      },
+      {
+        path: '/nesting',
+        element: <Nesting />
+      },
+      {
+        path: '/eventPropagation',
+        element: <EventPropagation />
       }
     ]
   }

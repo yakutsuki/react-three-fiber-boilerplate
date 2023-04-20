@@ -173,11 +173,20 @@ const Sidebar = () => {
           <Item>
             <CustomLink to="/move">Move</CustomLink>
           </Item>
+          <Item>
+            <CustomLink to="/modifyGeo">Modify Geometry Attributes</CustomLink>
+          </Item>
         </List>
         <SubTitle>进阶</SubTitle>
         <List>
           <Item>
             <CustomLink to="/house">House</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/nesting">Nesting Components</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/eventPropagation">Event Propagation</CustomLink>
           </Item>
         </List>
       </Nav>
