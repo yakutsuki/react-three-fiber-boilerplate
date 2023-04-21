@@ -31,6 +31,7 @@ const ModifyGeo = lazy(() => import('./example/modifyGeo'))
 const House = lazy(() => import('./case/house'))
 const Nesting = lazy(() => import('./case/nesting'))
 const EventPropagation = lazy(() => import('./case/eventPropagation'))
+const Camera = lazy(() => import('./case/camera'))
 
 const router = createBrowserRouter([
   {
@@ -140,6 +141,10 @@ const router = createBrowserRouter([
       {
         path: '/eventPropagation',
         element: <EventPropagation />
+      },
+      {
+        path: '/camera',
+        element: <Camera />
       }
     ]
   }

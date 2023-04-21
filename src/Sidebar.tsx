@@ -188,6 +188,9 @@ const Sidebar = () => {
           <Item>
             <CustomLink to="/eventPropagation">Event Propagation</CustomLink>
           </Item>
+          <Item>
+            <CustomLink to="/camera">Camera</CustomLink>
+          </Item>
         </List>
       </Nav>
     </Container>
