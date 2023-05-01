@@ -191,6 +191,12 @@ const Sidebar = () => {
           <Item>
             <CustomLink to="/camera">Camera</CustomLink>
           </Item>
+          <Item>
+            <CustomLink to="/hierarchy">Object3D Hierarchy</CustomLink>
+          </Item>
+          <Item>
+            <CustomLink to="/fps">FPS</CustomLink>
+          </Item>
         </List>
       </Nav>
     </Container>

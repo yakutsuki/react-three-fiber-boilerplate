@@ -32,6 +32,8 @@ const House = lazy(() => import('./case/house'))
 const Nesting = lazy(() => import('./case/nesting'))
 const EventPropagation = lazy(() => import('./case/eventPropagation'))
 const Camera = lazy(() => import('./case/camera'))
+const Hierarchy = lazy(() => import('./case/hierarchy'))
+const FPS = lazy(() => import('./case/fps'))
 
 const router = createBrowserRouter([
   {
@@ -145,6 +147,14 @@ const router = createBrowserRouter([
       {
         path: '/camera',
         element: <Camera />
+      },
+      {
+        path: '/hierarchy',
+        element: <Hierarchy />
+      },
+      {
+        path: '/fps',
+        element: <FPS />
       }
     ]
   }
